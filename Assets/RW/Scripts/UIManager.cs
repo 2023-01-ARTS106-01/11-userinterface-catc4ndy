@@ -13,8 +13,6 @@ public class UIManager : MonoBehaviour
     public Animator gearImage;
 
 
-
-
     public void StartGame() 
     {
         SceneManager.LoadScene("RocketMouse");
