@@ -6,8 +6,8 @@ using UnityEngine.UI;
 public class InventoryItemButton : MonoBehaviour
 {
     private Text buttonText;
-    private string[] itemTypes= { "Armour", "Weapon", "Spell" };
-    public int typeIndex
+    private string[] itemTypes = { "Armour", "Weapon", "Spell" };
+    public int typeIndex;
 
     private void Awake()
     {
